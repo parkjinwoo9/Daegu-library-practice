@@ -1,0 +1,143 @@
+#home{
+    width:100%;
+    height:800px;
+    
+}
+
+#search-area{
+    width:100%;
+    height:320px;
+    background:url("https://library.daegu.go.kr/resources/homepage/jungang/img/main_img_bg2.jpg");
+    position: relative;
+}
+#search-area>#bg-txt{
+    position: absolute;
+    left:220px;
+    top:50px;
+    transform:scale(0.7)
+}
+#search-area>#search-form{
+    position: relative;
+    left:-200px;
+    top:150px;
+}
+#search-form>#input-area{
+    width:500px;
+    height:62px;
+    background-color: #21409A;
+}
+#search-form>#input-area>label{
+    float:left;
+    width:150px;
+    height:30px;
+    background-color:#21409A;
+    color:white;
+    text-align: center;
+    margin-top: 16px;
+}
+#search-form>#input-area>input{
+    width:330px;
+    height:40px;
+    position:relative;
+    left:5px;
+    top:8px;
+    color:#777777;
+    padding-left:20px;
+    box-sizing: border-box;
+}
+#search-form>#input-area>button{
+    float:right;
+    position: relative;
+    right:20px;
+    top:-25px;
+    width:31px;
+    background-repeat:no-repeat;
+    font-size: 0px;
+    height:25px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+#quick-menu{
+    width:1200px;
+    height:140px;
+    background-color: darkgrey;
+}
+#main-line{
+    width:1200px;
+    height:400px;
+    background-color: darkviolet;
+}
+
+#pagination{
+    width:100%;
+    height:100px;
+    background-color: burlywood;
+}
+
+#page{
+    display:inline-block;
+    width:35px;
+    height:35px;
+    border:1px solid black;
+    margin:5px;
+    text-align: center;
+    padding-top:4px;
+    box-sizing: border-box;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+#page:hover{
+    color:#fff;
+    background-color: dodgerblue;
+}
+
+.active{
+    color:#fff;
+    background-color: dodgerblue !important;
+}
+
+.quick>.circle>img{
+    width:60px;
+    height:60px;
+    display: block;
+    margin:0 auto;
+    padding-top: 15px;
+
+}
+.quick{
+    width:100px;
+    height:130px;
+    float:left;
+    text-align: center;
+    margin-left: 45px;
+    padding-top: 10px;
+    background-color:#ffffff;
+}
+.quick>span{
+    background-color: brown;
+    font-size: 13px;
+    text-align: center;
+    width:150px;
+}
+.circle{
+    background-color: skyblue;
+    border-radius: 50px;
+    width:100px;
+    height:100px;
+    box-sizing: border-box;
+}
+.circle:hover{
+    background-color: green;
+}
+#home>#main-line>#main-left>#main-contents>#lib-info{
+    width:500px;
+    height:50px;
+    background-color:blue;
+}
+#home>#main-line>#main-left>#main-contents>#cont-area{
+    width:500px;
+    height:300px;
+    background-color: cyan;
+    
+}

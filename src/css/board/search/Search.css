@@ -1,0 +1,186 @@
+#search{
+    width:1200px;
+    height:2000px;
+    background-color: crimson;
+}
+#search>#search-filter-area{
+    width:100%;
+    height:400px;
+    background-color: darkcyan;
+}
+#search-filter-area>#search-filter-form{
+    width:100%;
+    height:100%;
+}
+/*검색영역*/
+#search-filter-form{
+    width:100%;
+    height:150px;
+    background-color: darkslateblue;
+    text-align: center;
+}
+#input-area>#title-box{
+    box-sizing: border-box;
+    display: inline-block;
+    border-style: solid;
+    border-image: linear-gradient(to right,#3cb13a 0%, #6466c3 100%);
+    border-image-slice:1;
+    background: #fff;
+    border-image-width:20px;
+    padding:15px;
+}
+#input-area>#title-box>#re-research-input{
+    width:550px;
+    height:70px;
+    padding-left:15px;
+    box-sizing: border-box;
+}
+/*필터영역*/
+#search-filter-form>#input-filter-area{
+    width:100%;
+    height:200px;
+    background-color: darkmagenta;
+}
+#input-filter-area>#filter-left{
+    float:left;
+    width:50%;
+    height:100%;
+    background-color: palegreen;
+}
+#filter-left>div{
+    width:100%;
+    height:31%;
+    margin-bottom: 3px;
+    background-color: aqua;
+}
+#filter-left>div>label{
+    float:left;
+    color:black;
+    width:80px;
+    height:100px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+#filter-left>div>input{
+    float:left;
+    width:360px;
+    height:40px;
+    position: relative;
+    top:10px;
+
+}
+#filter-left>div>select{
+    position: relative;
+    top:10px;
+
+}
+#filter-left>div>select{
+    float:left;
+    width:360px;
+    height:40px;
+}
+
+#input-filter-area>#filter-right{
+    float:left;
+    width:50%;
+    height:100%;
+    background-color: chocolate;
+}
+#filter-right>div{
+    width:100%;
+    height:31%;
+    margin-bottom: 3px;
+    background-color: forestgreen;
+
+}
+#filter-right>div>label{
+    float:left;
+    color:#000000;
+    width:80px;
+    height:100%;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+.author{
+    position: relative;
+    left:80px;
+}
+.subject{
+    position: relative;
+    left:-80px;
+}
+#filter-right>div>input{
+    float:left;
+    position: relative;
+    top:10px;
+}
+#filter-right>div>input[type=radio]{
+    width:15px;
+    height:15px;
+    margin-right: 5px;
+}
+#filter-right>div>span{
+    float:left;
+}
+#filter-right>div>#published{
+    width:360px;
+    height:40px;
+}
+#filter-right>#published-year>span{
+    font-size: 30px;
+    margin:0px 5px;
+    box-sizing: border-box;
+}
+#filter-right>div>#start-year{
+    width:160px;
+    height:40px;
+}
+#filter-right>div>#end-year{
+    width:160px;
+    height:40px;
+}
+#filter-right>#data-type>label{
+    position: relative;
+    left:1px;
+    top:-1px;
+}
+#filter-right>#data-type>input{
+    position: relative;
+    left:15px;
+    top:13px;
+}
+/*버튼영역*/
+#search-filter-form>#btn-area{
+    width:100%;
+    height:50px;
+    background-color: lightblue;
+    padding-top: 5px;
+    box-sizing: border-box;
+    text-align: center;
+}
+#btn-area>#btn-area-inner{
+    display: inline-block;
+}
+#btn-area>#btn-area-inner>button{
+    height:40px;
+    margin-right:10px;
+    padding:0px 10px;
+    color:#ffff;
+    background-color: #000000;
+}
+#search>#search-result{
+    width:100%;
+    height:1600px;
+    background-color: springgreen;
+}
+#search>#search-result>#re-research{
+    width:100%;
+    height:100px;
+    background-color: tomato;
+}
+
+

@@ -1,0 +1,19 @@
+
+#book{
+    width:100%;
+    height:50px;
+    background-color: brown;
+    margin-bottom: 1px;
+}
+#book>span:first-child{
+    float:left;
+    width:10%;
+    height:100%;
+    background-color: cadetblue;
+}
+#book>span:nth-child(2){
+    float:left;
+    width:40%;
+    height:100%;
+    background-color: chartreuse;
+}

@@ -1,0 +1,87 @@
+#notice-board-header{
+    width:1200px;
+    height:100px;
+    background-color: blue;
+    margin-bottom: 20px;
+}
+
+.number{
+    width:60px;
+    height:50px;
+    background-color: aqua;
+    float:left;
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    border:1px solid black;
+}
+
+.wpahr{
+    width: 480px;
+    height:50px;
+    background-color: aqua;
+    float:left;
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    border:1px solid black;
+}
+.sodyd{
+    width: 120px;
+    height:50px;
+    background-color: aqua;
+    float:left;
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    border:1px solid black;
+}
+.wkrtjdwk{
+    width: 95px;
+    height:50px;
+    background-color: aqua;
+    float:left;
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    border:1px solid black;
+    position: relative;
+    left:0px;
+}
+.regdate{
+    width: 254px;
+    height:50px;
+    background-color: aqua;
+    float:left;
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    border:1px solid black;
+}
+.attach{
+    width: 95px;
+    height:50px;
+    background-color: aqua;
+    float:left;
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    border:1px solid black;
+}
+.hits{
+    width: 96px;
+    height:50px;
+    background-color: aqua;
+    float:left;
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    border:1px solid black;
+}

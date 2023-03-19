@@ -1,0 +1,32 @@
+#tab-btn>ul>#tab{
+    font-size: 20px;
+    width:80px;
+    height:30px;
+    background-color: aquamarine;
+    float:left;
+    position: relative;
+    top:10px;
+    margin-left: 5px;
+    cursor:pointer;
+}
+.slush{
+    width:10px;
+    height:30px;
+    background-color: aquamarine;
+    float:left;
+    position: relative;
+    top:10px;
+    margin-left:5px;
+}
+#board-tab{
+    width:400px;
+    height:340px;
+    background-color: chartreuse;
+    float:left;
+}
+#board-tab>#tab-btn{
+    width:400px;
+    height:50px;
+    background-color: darkgoldenrod;
+    text-align: center;
+}

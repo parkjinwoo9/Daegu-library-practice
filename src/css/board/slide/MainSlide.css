@@ -1,0 +1,30 @@
+#main-slide{
+    width:350px;
+    height:340px;
+    background-color: #777777;
+    float:right;
+}
+
+.img>img{
+    width:350px;
+    height:340px;
+    z-index:0;
+    position: relative;
+}
+#next>img{
+    width:25px;
+    height:25px;
+    position: relative;
+    top:130px;
+    left:-35px;
+}
+#prev{
+    z-index: 10
+}
+#prev>img{
+    width:25px;
+    height:25px;
+    position: relative;
+    top:130px;
+    left:320px;
+}
